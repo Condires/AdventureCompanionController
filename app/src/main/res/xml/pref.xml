@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Allgemein">
+        <EditTextPreference
+            android:key="key_caller"
+            android:defaultValue="+41796543210"
+            android:summary="+41796543210"
+            android:title="erlaubte SMS Sender +417......,+417... (ohne Leerstellen)" />
+        <EditTextPreference
+            android:defaultValue="Wangs:"
+            android:key="sms_signature"
+            android:summary="Wangs:"
+            android:title="Text der am Anfang einer sms stehen muss" />
+        <EditTextPreference
+            android:key="key_notfall_nummer"
+            android:defaultValue="+41796543210"
+            android:summary="+41796543210"
+            android:title="Notfall Nummer" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
